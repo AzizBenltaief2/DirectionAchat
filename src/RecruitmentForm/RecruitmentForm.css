@@ -1,0 +1,155 @@
+.recruitment-card {
+    background-color: #FFFFFF;
+    border: 1.5px solid #EBE9F1;
+    border-radius: 14px;
+    padding: 30px;
+    display: flex;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    margin: 40px auto 40px 120px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 120px 30px 30px; 
+  }
+  
+  .form-section {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .illustration-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width :450px;
+  }
+  
+  .illustration-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .form-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 31px;
+    color: #000000;
+    margin-bottom: 40px;
+  }
+  
+  .form-content-wrapper {
+    padding-left: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+  }
+  
+  .form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .form-label {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #27272A;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .form-input, .form-select {
+    height: 48px;
+    padding: 0 12px;
+    border: 1px solid #D4D4D8;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  .form-select {
+    appearance: none;
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+    background-size: 16px;
+  }
+  
+  .input-with-buttons {
+    display: flex;
+    position: relative;
+  }
+  
+  .input-with-buttons .form-input {
+    padding-right: 80px;
+  }
+  
+  .quantity-buttons {
+    position: absolute;
+    right: 6px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    gap: 4px;
+  }
+  
+  .quantity-btn {
+    width: 32px;
+    height: 32px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1.5px solid #167ABC;
+    color: #167ABC;
+  }
+  
+  .form-actions {
+    display: flex;
+    gap: 12px;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .btn {
+    padding: 15px 24px;
+    border-radius: 8px;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  .btn-primary {
+    background-color: #167ABC;
+    color: white;
+  }
+  
+  .btn-secondary {
+    background-color: white;
+    color: #167ABC;
+    border: 1.5px solid #167ABC;
+  }
+  
+  .info-icon {
+    width: 16px;
+    height: 16px;
+    margin-left: 8px;
+  }
+  
+  .form-input[type=number]::-webkit-outer-spin-button,
+  .form-input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }

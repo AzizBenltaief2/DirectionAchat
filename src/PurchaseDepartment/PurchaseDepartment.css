@@ -1,0 +1,245 @@
+.AchatContainer {
+    background-color: #CDE3F2; 
+    padding: 30px;
+    border-radius: 14px;
+    max-width: 899px;
+    margin: auto;
+    font-family: 'Segoe UI', sans-serif;
+    color: #1e1e1e;
+  }
+ 
+  .AchatContainer h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .ChoixFournisseur {
+    display: flex;
+    gap: 10px; 
+    margin-bottom: 25px;
+  }
+  
+  .choixBtn {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #f0f4fa;
+    color: #003366;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .choixBtn:hover {
+    background-color: #167ABC;
+    color: white;
+  }
+  
+  .choixBtn.active {
+    background-color: #167ABC;
+    color: white;
+  }
+  
+  .choixMatiere {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  
+  .choixMatiere span {
+    cursor: pointer;
+    padding-bottom: 5px;
+    transition: all 0.3s;
+  }
+  .choixMatiere span:hover {
+    color: #167ABC;
+  }
+  
+  .choixMatiere span.active {
+    color: #167ABC;
+    border-bottom: 3px solid #167ABC;
+    padding-bottom: 6px;
+  }
+  
+  .form-label {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .info-icon {
+    margin-left: 6px;
+    width: 16px;
+    height: 16px;
+  }
+  
+  .ListeFournisseurs {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .AchatContainer {
+    background-color: #CDE3F2; 
+    padding: 30px;
+    border-radius: 14px;
+    max-width: 899px;
+    margin: auto;
+    font-family: 'Segoe UI', sans-serif;
+    color: #1e1e1e;
+    box-sizing: border-box;
+  }
+  
+  .AchatContainer h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .ChoixFournisseur {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+  }
+  
+  .choixBtn {
+    flex: 1;
+    min-width: 120px;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #f0f4fa;
+    color: #003366;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .choixBtn:hover {
+    background-color: #167ABC;
+    color: white;
+  }
+  
+  .choixBtn.active {
+    background-color: #167ABC;
+    color: white;
+  }
+  
+  .choixMatiere {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    flex-wrap: wrap;
+  }
+  
+  .choixMatiere span {
+    cursor: pointer;
+    padding-bottom: 5px;
+    transition: all 0.3s;
+    white-space: nowrap;
+  }
+  
+  .choixMatiere span:hover {
+    color: #167ABC;
+  }
+  
+  .choixMatiere span.active {
+    color: #167ABC;
+    border-bottom: 3px solid #167ABC;
+    padding-bottom: 6px;
+  }
+  
+  .form-label {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .info-icon {
+    margin-left: 6px;
+    width: 16px;
+    height: 16px;
+  }
+  
+  .ListeFournisseurs {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (max-width: 768px) {
+    .AchatContainer {
+      padding: 20px;
+    }
+    
+    .ChoixFournisseur {
+      flex-direction: column;
+      gap: 8px;
+    }
+    
+    .choixBtn {
+      width: 100%;
+      flex: none;
+    }
+    
+    .choixMatiere {
+      gap: 15px;
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .AchatContainer {
+      padding: 15px;
+    }
+    
+    .AchatContainer h2 {
+      font-size: 18px;
+    }
+    
+    .choixMatiere {
+      gap: 10px;
+      font-size: 13px;
+    }
+    
+    .choixBtn {
+      font-size: 13px;
+      padding: 10px;
+    }
+    
+    .ListeFournisseurs {
+      padding: 8px;
+    }
+  }
+  
+  @media (max-width: 360px) {
+    .choixMatiere {
+      flex-direction: column;
+      gap: 8px;
+    }
+    
+    .choixMatiere span {
+      padding: 5px 0;
+    }
+    
+    .choixMatiere span.active {
+      border-bottom: none;
+      border-left: 3px solid #167ABC;
+      padding-left: 5px;
+    }
+  }
